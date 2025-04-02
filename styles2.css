@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .title
+  {
+    font-style: italic;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
+  .centre {
+    text-align: center;
+  }
+  .footer {
+    padding: 0px 0 0 0;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+  }
+  .me {
+      width: 50%;  /* Shrinks to 50% of its container */
+      height: auto; /* Maintains aspect ratio */
+  }
+  .skills-container {
+    display: flex; /* Use Flexbox to create columns */
+    gap: 20px; /* Adds space between the two columns */
+    margin: 20px;
+  }
+  
+  .skills-column {
+    flex: 1; /* Ensures the columns take equal width */
+    padding: 10px;
+  }
+  
+  h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .skills-container {
+    display: flex; /* Use Flexbox to create columns */
+    gap: 20px; /* Adds space between the two columns */
+    margin: 20px;
+  }
+  
+  .skills-column {
+    flex: 1; /* Ensures the columns take equal width */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers items vertically */
+    align-items: center; /* Centers items horizontally */
+  }
+  
+  h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: center; /* Centers list items horizontally */
+  }
+  
