@@ -62,7 +62,6 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centers items vertically */
     align-items: center; /* Centers items horizontally */
   }
   
