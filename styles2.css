@@ -189,7 +189,7 @@ h2 .hello-text {
 #rightside{
 position: relative;
 right: 25%; /* Offsets from original position */
-bottom: 21%;
+bottom: 24%;
 }
 .carousel-control-prev,
 .carousel-control-next {
@@ -281,6 +281,7 @@ a {
   display: inline-block; /* Prevents line-height issues */
 }
 #socials svg {
+  padding: 5px !important;
   width: 4vw;
   height: 4vh;
 }
