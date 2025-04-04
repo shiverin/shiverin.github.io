@@ -88,7 +88,7 @@ p {
   max-width: 80%;       /* Never exceed parent width */
   width: 100%;           /* Full width of parent */
   margin: 0 auto;        /* Center if parent is wider */
-  height: 70vh;          /* 70% of viewport height */
+  height: 500;          /* 70% of viewport height */
   max-height: 800px;     /* Maximum height limit */
   min-height: 300px;
      /* Minimum height */
@@ -162,7 +162,7 @@ body {
 }
 
 /* Interactive Elements */
-a, .btn-primary {
+.btn-primary {
   color: var(--tech-blue);
 }
 
@@ -256,9 +256,6 @@ bottom: 22.5%;
 
 @keyframes fadeIn {
   to { opacity: 1; }
-}
-#socials{
-  all: initial
 }
 .yes{
   left: 50%;
