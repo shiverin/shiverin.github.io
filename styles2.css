@@ -123,12 +123,7 @@ p {
   background-color: #f8f9fa; /* Light gray background */
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  #myCarousel {
-    height: 50vh;        /* Smaller height on mobile */
-  }
-}
+
 :root {
   /* Core Colors */
   --nav-dark: #212529;    /* Your original navbar */
@@ -184,12 +179,12 @@ h2 {
 h2 .hello-text {
   font-size: 3.75rem; /* 1.5x larger */
   line-height: 0.9; /* Prevents spacing issues */
-  vertical-align:
 }
+
 #rightside{
 position: relative;
 right: 25%; /* Offsets from original position */
-top: 0;
+bottom: 19%;
 }
 .carousel-control-prev,
 .carousel-control-next {
@@ -282,10 +277,52 @@ a {
   display: inline-block; /* Prevents line-height issues */
 }
 #socials svg {
-  padding: 0px !important;
-  width: 4vw;
-  height: 4vh;
+  width: 30px;
+  height: 30px;
 }
 .blah{
   padding: 10px;
 }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #socials svg {
+    width: 6vw;
+    height: 6vh;
+    top: 0px;}
+  #rightside{
+    position: relative;
+    right: 25%; /* Offsets from original position */
+    bottom: 0%;
+  }
+  #typing-text{
+    font-size: 20px; /* Slightly smaller */
+    }
+  #follow{
+    font-size: 16px;
+  }
+  .bouncing-word{
+    font-size: 24px;
+  }
+  #myCarousel {
+    position: relative;
+    right: 8.5%; /* Offsets from original position */
+    max-width: 80%;       /* Never exceed parent width */
+    width: 100%;           /* Full width of parent */
+    margin: 0 auto;        /* Center if parent is wider */
+    height: 200;          /* 70% of viewport height */
+    max-height: 400px;     /* Maximum height limit */
+    min-height: 50px;
+    height
+  }
+  .carousel-indicators {
+      bottom: auto !important;
+      bottom: 40px !important;
+    }
+    .carousel-control-prev {
+      top: -40px !important; /* Move left arrow outside */
+    }
+    .carousel-control-next {
+      top: -40px !important; /* Move right arrow outside */
+    }
+}
+
