@@ -281,11 +281,7 @@ a {
   text-decoration: none !important; /* Removes underline */
   display: inline-block; /* Prevents line-height issues */
 }
-#socials svg {
-  padding: 0px !important;
-  width: 4vw;
-  height: 4vh;
-}
+
 .blah{
   padding: 10px;
 }
