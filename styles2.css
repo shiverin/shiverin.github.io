@@ -274,4 +274,8 @@ bottom: 22.5%;
   background-color: #f8f9fa; /* Light gray (like carousel bg) */
   color: #212529; /* Dark text */
   border-top: 1px solid #dee2e6; /* Light border */
-}  
+}
+a{
+  text-decoration: none !important; /* Removes underline */
+  display: inline-block; /* Prevents line-height issues */
+}
