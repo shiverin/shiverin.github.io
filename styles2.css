@@ -275,7 +275,7 @@ bottom: 22.5%;
   color: #212529; /* Dark text */
   border-top: 1px solid #dee2e6; /* Light border */
 }
-a{
+a {
   text-decoration: none !important; /* Removes underline */
   display: inline-block; /* Prevents line-height issues */
 }
