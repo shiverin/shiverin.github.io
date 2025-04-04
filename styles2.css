@@ -10,7 +10,11 @@ body {
   min-height: 100vh;
   font-family: 'Poppins', sans-serif !important;
 }
-
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Hides horizontal scroll */
+}
 h1, h2 {
   font-family: 'Playfair Display', serif;
 }
