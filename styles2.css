@@ -270,6 +270,7 @@ top: 0;
   text-align: center;
   margin-top: 0px; /* Space between carousel and caption */
   font-style: italic; /* Optional styling */
+  font-weight: 300; /* Light */
 }
 .footer {
   background-color: #f8f9fa; /* Light gray (like carousel bg) */
