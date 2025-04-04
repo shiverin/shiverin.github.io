@@ -88,7 +88,7 @@ p {
   max-width: 80%;       /* Never exceed parent width */
   width: 100%;           /* Full width of parent */
   margin: 0 auto;        /* Center if parent is wider */
-  height: 500;          /* 70% of viewport height */
+  height: 550;          /* 70% of viewport height */
   max-height: 800px;     /* Maximum height limit */
   min-height: 300px;
      /* Minimum height */
