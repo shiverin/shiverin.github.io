@@ -281,6 +281,6 @@ a {
   display: inline-block; /* Prevents line-height issues */
 }
 #socials svg {
-  width: 20vw;
-  height: 20vh;
+  width: 4vw;
+  height: 4vh;
 }
