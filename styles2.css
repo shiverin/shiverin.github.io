@@ -1,12 +1,5 @@
-/* Base Styles */
-:root {
-  --nav-dark: #212529;
-  --dark-bg: #343A40;
-  --light-bg: #F8F9FA;
-  --tech-blue: #0D6EFD;
-  --creative-purple: #6F42C1;
-  --text-dark: #212529;
-  --text-gray: #6C757D;
+#start {
+  padding-top: 70px;
 }
 
 body {
@@ -15,196 +8,32 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
+}
+body {
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden;
-  background: var(--light-bg);
-  color: var(--text-dark);
+  overflow-x: hidden; /* Hides horizontal scroll */
 }
-
-/* Layout */
-#start {
-  padding-top: 70px;
-}
-
-.container {
-  flex: 1;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  align-items: center;
-}
-
-/* Typography */
 h1, h2 {
   font-family: 'Playfair Display', serif;
 }
 
-h2 {
-  font-size: 2rem;
+.title {
+  font-style: italic;
 }
-
-h2 .hello-text {
-  font-size: 3.75rem;
-  line-height: 0.9;
+.container {
+  flex: 1;
 }
-
-h4 {
-  text-align: center;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
 .centre {
   text-align: center;
   font-family: 'Playfair Display', serif;
 }
-
-/* Navigation */
-.navbar {
-  background-color: var(--nav-dark) !important;
+.right {
+  margin-left: auto;
 }
-
-/* Carousel Styles */
-#myCarousel {
-  position: relative;
-  right: 8.5%;
-  max-width: 80%;
-  width: 100%;
-  margin: 0 auto;
-  height: 550px;
-  max-height: 800px;
-  min-height: 300px;
-}
-
-.carousel-inner {
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-item {
-  width: 100%;
-  height: 100%;
-  background-color: #f8f9fa;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-}
-
-.carousel-indicators {
-  list-style: none;
-  padding-left: 0;
-  text-indent: 0;
-  bottom: 15px;
-}
-
-.carousel-indicators li {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255,255,255,0.5);
-  display: inline-block;
-  margin: 0 5px;
-  text-indent: -9999px;
-  overflow: hidden;
-  border: none;
-}
-
-.carousel-indicators li.active {
-  background-color: white;
-  transform: scale(1.2);
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  width: 8%;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 50%;
-  padding: 20px;
-  background-size: 50% 50%;
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
-}
-
-/* Skills Section */
-.skills-container {
-  display: flex;
-  gap: 20px;
-  margin: 20px;
-}
-
-.skills-column {
-  flex: 1;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills-column:nth-child(1) h4 {
-  color: var(--tech-blue);
-}
-
-.skills-column:nth-child(2) h4 {
-  color: var(--creative-purple);
-}
-
-.divider {
-  width: 1px;
-  background-color: black;
-  height: 180px;
-}
-
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-/* Typing Animation */
-#typing-text span:nth-child(-n+5) {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #0066ff;
-}
-
-#typing-text.cursor-active::after {
-  content: "|";
-  animation: blink 0.7s 5;
-}
-
-.bouncing-word {
-  opacity: 0;
-  font-size: 3rem;
-  display: inline-block;
-  animation: fadeIn 2s forwards, bounce 0.5s ease infinite alternate;
-  font-weight: bold;
-}
-
-.appear-word {
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-}
-
-/* Footer */
 .footer {
-  padding: 0;
+  padding: 0px 0 0 0;
   background-color: #f8f9fa;
   color: #333;
   font-size: 14px;
@@ -213,60 +42,250 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 1px solid #dee2e6;
-}
 
-/* Miscellaneous */
-.yes {
-  left: 50%;
-  bottom: 0;
-  color: black;
-  width: 100%;
+}
+.me {
+    width: 50%;
+    height: auto;
+}
+.skills-container {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+h4 {
   text-align: center;
-  margin-top: 0;
-  font-style: italic;
-  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
-.blah {
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.skills-column {
+  flex: 1;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#rightside {
+.skills {
+  list-style-type: disc;
+  padding-left: 20px;
+
+}
+p {
+  display: flex;
+  align-items: center;
+}
+.divider {
+  width: 1px;
+  background-color: black;
+  height: 180px;
+}
+/* Carousel container styling */
+#myCarousel {
   position: relative;
-  right: 25%;
-  top: 0;
+  right: 8.5%; /* Offsets from original position */
+  max-width: 80%;       /* Never exceed parent width */
+  width: 100%;           /* Full width of parent */
+  margin: 0 auto;        /* Center if parent is wider */
+  height: 550;          /* 70% of viewport height */
+  max-height: 800px;     /* Maximum height limit */
+  min-height: 300px;
+     /* Minimum height */
 }
 
-#socials svg {
-  padding: 0;
-  width: 4vw;
-  height: 4vh;
+/* Carousel inner container */
+.carousel-inner {
+  width: 100%;
+  height: 100%;          /* Fill carousel container */
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
+/* Individual slide items */
+.carousel-item {
+  width: 100%;
+  height: 100%;          /* Fill inner container */
 }
 
-/* Animations */
+/* Image styling */
+.carousel-item img {
+  width: 100%;           /* Fill item width */
+  height: 100%;          /* Fill item height */
+  object-fit: contain;   /* Maintain aspect ratio without cropping */
+  object-position: center; /* Center the image */
+}
+
+/* Optional: Add background color for letterboxing */
+.carousel-item {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #myCarousel {
+    height: 50vh;        /* Smaller height on mobile */
+  }
+}
+:root {
+  /* Core Colors */
+  --nav-dark: #212529;    /* Your original navbar */
+  --dark-bg: #343A40;     /* Slightly lighter than navbar */
+  --light-bg: #F8F9FA;    /* Clean off-white */
+  --tech-blue: #0D6EFD;   /* Bootstrap primary blue */
+  --creative-purple: #6F42C1; /* Bootstrap indigo */
+  --text-dark: #212529;
+  --text-gray: #6C757D;
+}
+
+/* Apply to your structure */
+body {
+  background: var(--light-bg);
+  color: var(--text-dark);
+}
+
+.navbar {
+  background-color: var(--nav-dark) !important; /* Maintains original */
+}
+
+.dark-section {
+  background: var(--dark-bg);
+  color: white;
+}
+
+/* Tech Skills */
+.skills-column:nth-child(1) h4 {
+  color: var(--tech-blue);
+}
+
+/* Music Skills */
+.skills-column:nth-child(2) h4 {
+  color: var(--creative-purple);
+}
+
+/* Interactive Elements */
+.btn-primary {
+  color: var(--tech-blue);
+}
+
+.carousel-indicators li.active {
+  background: var(--tech-blue);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-items: center;
+}
+h2 {
+  font-size: 2rem; /* Base size */
+}
+h2 .hello-text {
+  font-size: 3.75rem; /* 1.5x larger */
+  line-height: 0.9; /* Prevents spacing issues */
+  vertical-align:
+}
+#rightside{
+position: relative;
+right: 25%; /* Offsets from original position */
+top: 0;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 8%; /* Makes the clickable area larger */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    border-radius: 50%;
+    padding: 20px; /* Increases hit area */
+    background-size: 50% 50%; /* Arrow size */
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+#typing-text span:nth-child(-n+5) {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #0066ff; /* Optional: Add color */
+}
+
+/* Blinking cursor (optional) */
+#typing-text.cursor-active::after {
+  content: "|";
+  animation: blink 0.7s 5;
+}
+
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
+}
+.bouncing-word {
+  opacity: 0;
+  font-size: 3rem; /* 1.5x larger */
+  display: inline-block;
+  animation:
+  fadeIn 2s forwards,
+  bounce 0.5s ease infinite alternate;
+  font-weight: bold;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-20px) scale(1.1);
+  }
+}
+.container1 {
+  display: flex;
+}
+.appear-word {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
 }
 
 @keyframes fadeIn {
   to { opacity: 1; }
 }
-
-@keyframes bounce {
-  from { transform: translateY(0) scale(1); }
-  to { transform: translateY(-20px) scale(1.1); }
+.yes{
+  left: 50%;
+  bottom: 0px; /* Adjust distance from bottom */
+  color: black;
+  width: max-content; /* Prevents full-width background */
+  width: 100%;
+  text-align: center;
+  margin-top: 0px; /* Space between carousel and caption */
+  font-style: italic; /* Optional styling */
+  font-weight: 300; /* Light */
 }
-
-/* Responsive */
-@media (max-width: 768px) {
-  #myCarousel {
-      height: 50vh;
-  }
+.footer {
+  background-color: #f8f9fa; /* Light gray (like carousel bg) */
+  color: #212529; /* Dark text */
+  border-top: 1px solid #dee2e6; /* Light border */
+}
+a {
+  text-decoration: none !important; /* Removes underline */
+  display: inline-block; /* Prevents line-height issues */
+}
+#socials svg {
+  padding: 0px !important;
+  width: 4vw;
+  height: 4vh;
+}
+.blah{
+  padding: 10px;
 }
