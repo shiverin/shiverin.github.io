@@ -1,0 +1,36 @@
+HTML Tags used:
+div
+h2
+figure
+figurecaption
+br
+hr
+h3
+p
+ul
+li
+span
+a
+footer
+
+CSS Tags used:
+margin
+padding
+display
+flex-direction
+min-height
+font-style
+flex
+text-align
+margin-left
+background-color
+color
+font-size
+width
+margin-top
+height
+display
+gap
+
+
+
