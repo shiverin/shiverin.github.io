@@ -292,10 +292,23 @@ a {
   #rightside{
     position: relative;
     right: 25%; /* Offsets from original position */
-    bottom: 0%;
+    bottom: 17.5%;
+    font-size: 50%;
+
   }
-  .blah{
-    font-size: clamp(16px, 4vw, 22px);
+  .bouncing-word,#typing-text, #follow{
+    font-size: 55%;
+  }
+  #myCarousel {
+    max height: 20vh !important;
+  }
+  .grid-container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .bottom{
+  margin-top: -80px; /* Moves the element 20px up */
   }
 }
 
