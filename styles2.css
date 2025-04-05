@@ -299,9 +299,6 @@ a {
   .bouncing-word,#typing-text, #follow{
     font-size: 55%;
   }
-  #myCarousel {
-    max height: 20vh !important;
-  }
   .grid-container{
     padding: 0;
     margin: 0;
