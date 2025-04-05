@@ -294,35 +294,8 @@ a {
     right: 25%; /* Offsets from original position */
     bottom: 0%;
   }
-  #typing-text{
-    font-size: 20px; /* Slightly smaller */
-    }
-  #follow{
-    font-size: 16px;
+  .blah{
+    font-size: clamp(16px, 4vw, 22px);
   }
-  .bouncing-word{
-    font-size: 24px;
-  }
-  #myCarousel {
-    position: relative;
-    right: 8.5%; /* Offsets from original position */
-    max-width: 80%;       /* Never exceed parent width */
-    width: 100%;           /* Full width of parent */
-    margin: 0 auto;        /* Center if parent is wider */
-    height: 200;          /* 70% of viewport height */
-    max-height: 400px;     /* Maximum height limit */
-    min-height: 50px;
-    height
-  }
-  .carousel-indicators {
-      bottom: auto !important;
-      bottom: 40px !important;
-    }
-    .carousel-control-prev {
-      top: -40px !important; /* Move left arrow outside */
-    }
-    .carousel-control-next {
-      top: -40px !important; /* Move right arrow outside */
-    }
 }
 
