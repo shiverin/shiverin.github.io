@@ -69,11 +69,16 @@
     <script>
         function check() {
             let answer = document.querySelector("#answer").value.trim().toLowerCase();
-            
+            if (answer==="shizhen" || answer==="shi zhen" || answer==="zhao shizhen" || answer==="zhaoshizhen"){
+                document.querySelector("#p2").innerHTML = `${answer} is not gay! (nice try!)`;
+                return false;
+            }
+            else{
             document.querySelector("#p2").innerHTML = `${answer} is gay! 🏳️‍🌈`;
             //document.querySelector("#p2").innerHTML = "YOU ARE GAY!";
             document.querySelector("#answer").style.background = "linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)";
             return false;
+            }   
         }
 
         document.addEventListener('DOMContentLoaded', function() {
