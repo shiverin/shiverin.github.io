@@ -295,3 +295,8 @@ a {
 .rightsid{
   text-align: right;
 }
+.progrid {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  gap: 10px; /* Space between items (optional) */
+}
