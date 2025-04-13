@@ -144,16 +144,6 @@ p {
   color: white;
 }
 
-/* Tech Skills */
-.skills-column:nth-child(1) h4 {
-  color: var(--tech-blue);
-}
-
-/* Music Skills */
-.skills-column:nth-child(2) h4 {
-  color: var(--creative-purple);
-}
-
 /* Interactive Elements */
 .btn-primary {
   color: var(--tech-blue);

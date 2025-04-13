@@ -30,6 +30,57 @@
             <br>
             <hr>
             <h3 class="centre">PROJECTS</h3>
+            <div class="progrid">
+                <div class="progrid-item">
+                    <h4>PDFILEdit</h4>
+                    <p>PDFILEdit is a Flask-based web application developed as my CS50x final project to tackle the common frustrations of PDF editing faced by students and professionals. It offers a clean, ad-free, browser-based solution that supports multiple PDF tasks in one place—making it easy to merge, sign, extract, convert, and compress PDFs without switching tools. Users can upload PDF files which are stored in secure, session-specific directories to ensure privacy and scalability. The system dynamically adapts to user input: single PDFs enable functions like signing, page extraction, and conversion, while multiple uploads activate the merge and ZIP features. All actions are integrated into a smooth UI/UX that preserves file visibility across different app routes.  
+                        
+                    <p>Technical Highlights:</p>
+                        <ul>
+                        <li>Backend: Flask, Python, PyPDF2
+                        
+                    </li><li>Frontend: HTML5, JavaScript (Canvas), CSS
+                        
+                    </li><li>File Handling: Secure uploads with secure_filename; session-based isolation for concurrent users
+                        
+                    </li><li>Signature Feature: HTML5 Canvas for drawing, resizing, and dragging signatures over rendered PDFs
+                        
+                    </li><li>Dynamic Routing: Files persist across pages for seamless switching between tools
+                        
+                    </li><li>Storage Management: Hybrid cleanup via user-facing buttons and server-side time-based deletion
+                        
+                    </li><li>PDF Editing Features: PDF merging, single-page extraction, format conversion, ZIP compression of multiple PDFs
+                    </li></ul>
+                        <section>This project reflects my focus on building intuitive, real-world tools with attention to scalability, user experience, and technical precision.</p>
+                        </section>
+                </div>
+                <div class="progrid-item">
+                    <h4>CS50 Finance</h4>
+                    <p>Built using Flask, Python, and SQL (with SQLite for local development and PostgreSQL in production), the app allows users to:</p>  
+                    <ol>
+                        <li>Create an account and log in securely
+                        </li><li>Search for stock quotes using the CS50 Finance API
+                        </li><li>Buy and sell stocks, which are then stored in the user’s transaction history
+                        </li><li>Display portfolio information, including total value and individual stock holdings</li>
+                    </ol>
+                    <ul>
+                        <li>Authentication & Security: Implemented user authentication using Flask's session management and secured user passwords with Flask-Bcrypt.
+                        </li><li>Database Management: Used SQLAlchemy and PostgreSQL to store user data, transactions, and portfolio details securely in the cloud.                       
+                        </li><li>Version Control & Deployment: Managed the project using Git and deployed the final product with Render, integrating the backend with a real PostgreSQL database hosted on Render.
+                        </li>
+                    </ul>  
+                </div>
+                <div class="progrid-item">
+                    <h4>Personal Webpage</h4>
+                    <p>Written in HTML, CSS and JavaScript. 
+                    Hosted on Github Pages
+                    Formatted to be both desktop and mobile friendly!</p>
+                </div>
+                <div class="progrid-item">
+                    <h4>TicTacToe (Command-Line Python Game)</h4>
+                    <p>This is a simple implementation of the classic Tic Tac Toe game in Python, playable in the command line. It allows two human players to input their names and symbols and take turns making moves on a 3x3 board until someone wins or the game ends in a draw.</p>
+                </div>
+            </div>
         </div>
     <footer class="footer text-center py-4">
         <div>© 2025 Shizhen Zhao. All Rights Reserved.</div>
