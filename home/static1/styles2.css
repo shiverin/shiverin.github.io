@@ -299,4 +299,9 @@ a {
   margin-top: -80px; /* Moves the element 20px up */
   }
 }
-
+.title1{
+  font:italic;
+}
+.rightsid{
+  text-align: right;
+}
