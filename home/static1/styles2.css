@@ -9,11 +9,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif !important;
-}
-body {
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden; /* Hides horizontal scroll */
+  overflow-x: hidden;
+  background: var(--light-bg);
+  color: var(--text-dark);
 }
 h1, h2 {
   font-family: 'Playfair Display', serif;
@@ -135,12 +135,6 @@ p {
   --text-gray: #6C757D;
 }
 
-/* Apply to your structure */
-body {
-  background: var(--light-bg);
-  color: var(--text-dark);
-}
-
 .navbar {
   background-color: var(--nav-dark) !important; /* Maintains original */
 }
@@ -253,9 +247,6 @@ bottom: 19%;
   animation: fadeIn 2s forwards;
 }
 
-@keyframes fadeIn {
-  to { opacity: 1; }
-}
 .yes{
   left: 50%;
   bottom: 0px; /* Adjust distance from bottom */
