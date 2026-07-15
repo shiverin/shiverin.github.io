@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.e1f846de.css",
-    "main.js": "/build/static/js/main.4c965ba3.js",
-    "static/js/453.61dff875.chunk.js": "/build/static/js/453.61dff875.chunk.js",
-    "static/media/myself.jpg": "/build/static/media/myself.a330c1d773f1fddf00d5.jpg",
-    "index.html": "/build/index.html",
-    "main.e1f846de.css.map": "/build/static/css/main.e1f846de.css.map",
-    "main.4c965ba3.js.map": "/build/static/js/main.4c965ba3.js.map",
-    "453.61dff875.chunk.js.map": "/build/static/js/453.61dff875.chunk.js.map"
+    "main.css": "./static/css/main.68e9bda6.css",
+    "main.js": "./static/js/main.4113b2d3.js",
+    "static/media/zhaoshizhen-resume.png": "./static/media/zhaoshizhen-resume.9c5d4c748499a73963bb.png",
+    "static/media/tiger-leaping-gorge.jpg": "./static/media/tiger-leaping-gorge.b70a98c64edf6b0d9f53.jpg",
+    "static/media/portrait.webp": "./static/media/portrait.f354bf5da5844d65b8ef.webp",
+    "static/media/garden.jpg": "./static/media/garden.c7740153fb5a0abe4eaf.jpg",
+    "static/media/snowline.jpg": "./static/media/snowline.aee2172e8f3846a0f717.jpg",
+    "static/media/cafe.jpg": "./static/media/cafe.88f3f30fe71e942cde66.jpg",
+    "index.html": "./index.html",
+    "main.68e9bda6.css.map": "./static/css/main.68e9bda6.css.map",
+    "main.4113b2d3.js.map": "./static/js/main.4113b2d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1f846de.css",
-    "static/js/main.4c965ba3.js"
+    "static/css/main.68e9bda6.css",
+    "static/js/main.4113b2d3.js"
   ]
 }
